@@ -1,0 +1,25 @@
+:root{
+    --general-background: #ECECEC;
+    --header-background: #D8D8D8;
+    --section-background: #EAF2FD;
+    --blanco: #FFFFFF;
+    --text: #464646;
+    --text-link: #2A7AE4;
+    --naranja: #FF9300;
+}
+
+body{
+    background-color: var(--general-background);
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    padding-right: 5%;      
+    padding-left: 5%;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
+}

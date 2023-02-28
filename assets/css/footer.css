@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--blanco);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.footer__desc{
+    font-size: 2rem;
+    color: var(--text);
+    text-align: center;
+    font-family: 'Raleway';
+    cursor: default;
+}
+
+.footer__desc:hover{
+    color: var(--text-link);
+}

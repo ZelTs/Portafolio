@@ -1,0 +1,96 @@
+.page{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page__img-desc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name
+{
+    padding: 1rem 1rem 1rem 0;
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: default;
+    text-transform: uppercase;
+    transition: 0.2s all;
+    text-align: center;
+}
+
+.name__desc{
+    padding-bottom: 1.5rem;
+    color: var(--text-link);
+    text-align: center;
+}
+
+.name__desc:before{
+    content:"— "
+}
+
+.name__desc:after{
+    content:" —"
+}
+.name:hover{
+    color: var(--text-link);
+}
+
+.page__img{
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.page__img-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page__img-zelts{
+    background-image: url("/assets/img/zelts.jpg");
+}
+
+@media (min-width: 1024px){
+    .page{
+        padding-top: 3.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+ .page__img{
+    width: 350px;
+    height: 350px;
+    align-items: flex-start;
+ }   
+
+ .name{
+    font-size: 3rem;
+ }
+
+ .name__desc{
+    font-size: 2rem;
+ }
+
+ .page__img-icon-linkedin{
+    width: 90px;
+ }
+
+ .page__img-icon-github{
+    width: 90px;
+ }
+
+ .page__img-icon-mail{
+    width: 90px;
+ }
+    
+}

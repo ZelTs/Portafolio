@@ -1,0 +1,138 @@
+.generic{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generic__title{
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text);
+    font-weight: bold;
+    transition: 0.2s all;
+    text-align: center;
+    color: var(--text);
+    cursor: default;
+}
+
+.generic__title:hover{
+    color: var(--text-link);
+}
+
+.generic__icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.iconn{
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    margin: 1rem;
+    width: 23%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+}
+
+.iconn__hobbies{
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+}
+
+.iconn__formacion{
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+.img__icon{
+    padding-bottom: 0.5rem;
+    width: 72px;
+    height: 72px;
+}
+
+.img__icon-formacion{
+    padding-bottom: 0.5rem;
+    width: 210px;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+.icon__name{
+    text-align: left;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    cursor: default;
+    transition: 0.2s all;
+    color: var(--text);
+}
+
+.icon__name-formacion{
+    text-align: left;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    cursor: default;
+    transition: 0.2s all;
+    color: var(--text-link);
+    text-align: center;
+}
+
+.icon__name:hover{
+    color: var(--text-link);
+}
+
+.grado{
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.2rem;
+    color: var(--text);
+    text-align: center;
+}
+
+@media (min-width: 1024px){
+    .generic__title{
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        font-size: 4rem;
+    }
+
+    .generic__icons{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .iconn{
+        width: 24%;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .iconn__hobbies{
+        width: 45%;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }   
+}
