@@ -58,7 +58,7 @@
 }
 
 .page__img-zelts{
-    background-image: url("../img/zelts.jpg");
+    background-image: url(/assets/img/zelts.jpg);
 }
 
 @media (min-width: 1024px){
