@@ -57,9 +57,7 @@
     justify-content: space-evenly;
 }
 
-.page__img-zelts{
-    background-image: url(/assets/img/zelts.jpg);
-}
+
 
 @media (min-width: 1024px){
     .page{
