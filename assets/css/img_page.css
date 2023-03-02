@@ -16,7 +16,7 @@
 {
     padding: 1rem 1rem 1rem 0;
     color: var(--text);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     cursor: default;
     text-transform: uppercase;
@@ -55,9 +55,7 @@
 }
 
 .page__img-icon-red{
-    width: 60px;
-    padding-right: 1.5rem;
-    
+    width: 40px;    
 }
 
 

@@ -1,13 +1,13 @@
 .generic{
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .generic__title{
-    padding-top: 1rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2.2rem;
+    padding-bottom: 1.8rem;
     font-size: 1.8rem;
     color: var(--text);
     font-weight: bold;
@@ -31,7 +31,7 @@
     background: var(--blanco);
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem 0 2rem;
+    padding: 0 2rem;
     margin: 1rem;
     width: 23%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
@@ -70,22 +70,21 @@
 }
 
 .img__icon{
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
     width: 72px;
     height: 72px;
 }
 
 .img__icon-formacion{
-    padding-bottom: 0.5rem;
-    width: 210px;
-    height: 120px;
+    padding-top: 0.5rem;
+    width: 100px;
     margin-bottom: 1rem;
 }
 
 .icon__name{
-    text-align: left;
-    font-size: 1.8rem;
-    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
     padding-bottom: 1.5rem;
     cursor: default;
     transition: 0.2s all;
@@ -94,7 +93,7 @@
 
 .icon__name-formacion{
     text-align: left;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: center;
     padding-top: 0.5rem;
     margin-top: 1rem;
@@ -111,8 +110,7 @@
 .grado{
     font-weight: bold;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     color: var(--text);
     text-align: center;
 }
@@ -141,5 +139,15 @@
         margin-right: 2rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
-    }   
+    }
+
+    .img__icon-formacion{
+        width: 180px;
+        padding-top: 1.2rem;
+    }
+
+    .icon__name-formacion{
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
 }
