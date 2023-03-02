@@ -73,15 +73,16 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: left;
+        font-size: 1.5rem;
     }
 
     .exp__img{
         width: 35vw;
-        margin-right: 2.5rem;
+        margin-right: 2rem;
     }
 
     .grado{
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.8rem;
         font-size: 2rem;
         padding-top: 2rem;
     }
