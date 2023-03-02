@@ -42,12 +42,15 @@
         <link rel="preload" href="assets/css/footer.css" as="style">
         <link rel="stylesheet" href="assets/css/footer.css">
 
+        <link rel="preload" href="assets/css/svg__img.css" as="style">
+        <link rel="stylesheet" href="assets/css/svg__img.css">
+
         <title>ZelTs - Web Developer</title>
     </head>
     <body>
         <header class="header container">
             <p class="header__title">ZelTs</p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.0" stroke="#464646" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg class="svg__img" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" viewBox="0 0 24 24" stroke-width="1.0" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <polyline points="7 8 3 12 7 16" />
                 <polyline points="17 8 21 12 17 16" />
@@ -64,13 +67,13 @@
                     </div>
                     <div class="page__img-icon">
                         <a href="https://www.linkedin.com/in/zeltsmx/" target="_blank"  class="page__img-icon-linkedin"> 
-                            <img src="assets/img/icon_linkedin.svg" alt="LinkedIn">
+                            <img class="page__img-icon-red" src="assets/img/icon_linkedin.svg" alt="LinkedIn">
                         </a>
                         <a href="https://github.com/ZelTs" target="_blank" class="page__img-icon-github">
-                            <img src="assets/img/icon_gitHub.svg" alt="GitHub">
+                            <img class="page__img-icon-red" src="assets/img/icon_gitHub.svg" alt="GitHub">
                         </a>
                         <a href="mailto:zeltsmx@outlook.com" target="_blank" class="page__img-icon-mail">
-                            <img src="assets/img/icon_mail.svg" alt="Email">
+                            <img class="page__img-icon-red" src="assets/img/icon_mail.svg" alt="Email">
                         </a>
                     </div>
                 </div>
@@ -131,9 +134,7 @@
             <h2 class="generic__title">Hobbies</h2>
             <div class="generic__icons">
                 <div class="iconn__hobbies">
-                    <a href="#">
-                        <img class="img__icon" src="assets/img/astronomy.svg" alt="Astronomía">
-                    </a>
+                    <img class="img__icon" src="assets/img/astronomy.svg" alt="Astronomía">
                     <p class="icon__name">Astrónomo Aficionado<p>
                 </div>
                 <div class="iconn__hobbies">
@@ -179,14 +180,11 @@
 
         <section class="exp container">
             <h2 class="generic__title">Experiencia Profesional</h2>
-            <div class="exp__project">
-                <a href="#">
+            <div class="exp__projects">
                     <img class="exp__img" src="assets/img/encriptador.jpg" alt="Encriptador">
-                </a>
-
                 <div class="exp__info">
                     <p class="grado">Encriptador de Texto</p>
-                    <p class="exp__desc">Challenge Oracle, encripta cualquier texto y desencriptalo ahí mismo, página web creada con HTML, CSS y JS.</p>
+                    <p class="exp__info">Challenge Oracle, encripta cualquier texto y desencriptalo ahí mismo, página web creada con HTML, CSS y JS.</p>
                     <div>
                         <a href="https://github.com/ZelTs/Encriptador" target="_blank">
                             <button class="boton boton__repositorio">Repositório</button>
@@ -198,13 +196,10 @@
                 </div>
             </div>
             <div class="exp__project">
-                <a href="#">
-                    <img src="assets/img/appeperiaheader.jpg" alt="Appeperia" class="exp__img" >
-                </a>
-
+                <img src="assets/img/appeperiaheader.jpg" alt="Appeperia" class="exp__img" >
                 <div class="exp__info">
                     <p class="grado">Appeperia</p>
-                    <p class="exp__desc">Página de desarrollo de apps, layouts responsivos y flexbox, creada con HTML y CSS</p>
+                    <p class="exp__info">Página de desarrollo de apps, layouts responsivos y flexbox, creada con HTML y CSS</p>
                     <div>
                         <a href="https://github.com/ZelTs/Appeperia" target="_blank">
                             <button class="boton boton__repositorio">Repositório</button>
@@ -216,10 +211,7 @@
                 </div>
             </div>
             <div class="exp__project">
-                <a href="#">
                     <img class="exp__img" src="assets/img/task.jpg" alt="Task Manager">
-                </a>
-
                 <div class="exp__info">
                     <p class="grado">Task Manager</p>
                     <p class="exp__info">Página para organizar tareas, crea, marca y borra tareas. Manipulación de DOM con Java Script.</p>
@@ -234,11 +226,8 @@
                 </div>
             </div>
             <div class="exp__project">
-                <a href="#">
-                    <img class="exp__img" src="assets/img/freelancer.jpg" alt="Freelancer">
-                </a>
-
-                <div class="ecp__info">
+                <img class="exp__img" src="assets/img/freelancer.jpg" alt="Freelancer">
+                <div class="exp__info">
                     <p class="grado">Freelancer</p>
                     <p class="exp__info">Página web creada para ofrecer servicios de desarrollo web. Creada con HTML y CSS</p>
                     <div>

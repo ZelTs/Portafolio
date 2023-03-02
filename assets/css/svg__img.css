@@ -1,0 +1,15 @@
+.svg__img{
+    stroke:#464646;
+    width: 40px;
+    transition: 0.3s all;
+}
+
+.svg__img:hover{
+    stroke: var(--text-link);
+}
+
+@media (min-width: 1024px){
+    .svg__img{
+        width: 70px;
+    }
+}

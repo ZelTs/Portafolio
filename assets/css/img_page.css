@@ -45,9 +45,6 @@
     height: 140px;
     width: 140px;
     margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 100%;
 }
 
@@ -55,6 +52,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.page__img-icon-red{
+    width: 60px;
+    padding-right: 1.5rem;
+    
 }
 
 
@@ -79,16 +82,9 @@
     font-size: 2rem;
  }
 
- .page__img-icon-linkedin{
+ .page__img-icon-red{
     width: 90px;
+    stroke:#464646;    
  }
 
- .page__img-icon-github{
-    width: 90px;
- }
-
- .page__img-icon-mail{
-    width: 90px;
- }
-    
 }

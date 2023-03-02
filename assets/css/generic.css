@@ -31,10 +31,11 @@
     background: var(--blanco);
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    padding: 2rem 1rem 0 2rem;
     margin: 1rem;
     width: 23%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+    transition: 0.3s all;
 }
 
 .iconn__hobbies{
@@ -44,9 +45,14 @@
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     width: 100%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+    transition: 0.3s all;
+}
+
+.iconn:hover, .iconn__hobbies:hover, .iconn__formacion:hover{
+    transform: scale(1.03);
 }
 
 .iconn__formacion{
@@ -56,9 +62,10 @@
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
     width: 100%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+    transition: 0.3s all;
 
 }
 
@@ -77,9 +84,9 @@
 
 .icon__name{
     text-align: left;
-    font-size: 1rem;
-    text-align: center;
-    padding-top: 0.5rem;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     cursor: default;
     transition: 0.2s all;
     color: var(--text);

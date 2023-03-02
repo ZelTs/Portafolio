@@ -63,19 +63,27 @@
     .exp__project{
         border-bottom: 0px solid var(--text-link);
         display: flex;
+        padding-bottom: 2rem;
     }
 
     .exp__info{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         text-align: left;
     }
 
     .exp__img{
         width: 35vw;
-        margin-right: 1rem;
+        margin-right: 2.5rem;
+    }
+
+    .grado{
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        padding-top: 2rem;
     }
 
 
