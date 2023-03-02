@@ -79,30 +79,53 @@
 
 @media (min-width: 1024px){
     .exp__project{
-        border-bottom: 0px solid var(--text-link);
         display: flex;
-        padding-bottom: 2rem;
+        flex-direction: initial;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 0px solid var(--text-link);
+    }
+
+    .exp__img{
+        margin-left: 4rem;
+        width: 50%;
     }
 
     .exp__info{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
     }
 
-    .exp__img{
-        width: 35vw;
-        margin-right: 2rem;
+    .exp__name{
+        font-size: 1.8rem;
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .exp__desc{
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .container__btn{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+
+    .boton__demo{
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+    .boton__repositorio{
+        padding: 0.94rem;
     }
 
     .grado{
         margin-bottom: 1.8rem;
         font-size: 2rem;
         padding-top: 2rem;
-    }
-
-
-    
+    }   
 }

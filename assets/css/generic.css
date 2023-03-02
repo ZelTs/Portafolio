@@ -117,7 +117,7 @@
 
 @media (min-width: 1024px){
     .generic__title{
-        padding-top: 1rem;
+        padding-top: 2rem;
         padding-bottom: 3rem;
         font-size: 4rem;
     }
@@ -128,10 +128,22 @@
     }
 
     .iconn{
-        width: 24%;
+        width: 23%;
         margin-top: 3.5rem;
         margin-bottom: 2rem;
         padding-bottom: 3rem;
+    }
+
+    .img__icon{
+        margin-top: 2rem;
+        width: 220px;
+    }
+
+    .icon__name{
+        padding-top: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
     }
 
     .iconn__hobbies{
